@@ -9,6 +9,9 @@ Toate funțiile de sortare, cu excepția Quicksort, modifică lista trimisă ca 
 funcții Quicksort, este necesară atribuirea rezultatului funcției, listei inițiale
 (exemplu de apel: "list = q.QuickSort(list)").
 
+Observație: Unele funcții de sortare necesită mai mulți parametrii. Funcțiile care au nevoie de precizarea începutului și sfârșitului listei, trebuie apelate cu parametrii "0" pentru "start", respectiv "len(list)-1" pentru "end".
+(exemplu: "m.quickMergeSort_sqrt(list, 0, len(list)-1)")
+
 După execuția programului, în terminal va fi afișat timpul de execuție, și valoarea "True" dacă lista este
 întradevăr sortată, "False" în caz contrar. De asemenea va fi creat fișierul "result.txt" în care se va salva
 lista sortată.
